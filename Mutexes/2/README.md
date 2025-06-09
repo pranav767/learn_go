@@ -1,7 +1,9 @@
-# Exercise 2 - Mutexes
+Why Is It Called a “mutex”?
+Mutex is short for mutual exclusion, and the conventional name for the data structure that provides it is "mutex", often abbreviated to "mu".
 
-This is exercise 2 for the topic **Mutexes**.
+It's called "mutual exclusion" because a mutex excludes different threads (or goroutines) from accessing the same data at the same time.
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+
+
+
+

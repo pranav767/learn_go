@@ -1,7 +1,29 @@
-# Exercise 1 - Packages and modules
+Packages
+Every Go program is made up of packages.
 
-This is exercise 1 for the topic **Packages and modules**.
+You have probably noticed the package main at the top of all the programs you have been writing.
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+A package named "main" has an entrypoint at the main() function. A main package is compiled into an executable program.
+
+A package by any other name is a "library package". Libraries have no entry point. Libraries simply export functionality that can be used by other packages. For example:
+
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+func main() {
+	fmt.Println("My favorite number is", rand.Intn(10))
+}
+
+This program is an executable. It is a "main" package and imports from the fmt and math/rand library packages.
+
+Assignment
+Fix the bug in the code.
+
+
+
+
+

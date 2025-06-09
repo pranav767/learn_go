@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"strings"
+)
 
-func main() {
-    fmt.Println("Hello from Pointers - Exercise 2")
+func removeProfanity(message *string) {
+	// ?
 }

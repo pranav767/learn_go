@@ -1,7 +1,21 @@
-# Exercise 6 - generics
+Naming Generic Types
+Let's look at this simple example again:
 
-This is exercise 6 for the topic **generics**.
+func splitAnySlice[T any](s []T) ([]T, []T) {
+    mid := len(s)/2
+    return s[:mid], s[mid:]
+}
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+Remember, T is just a variable name, We could have named the type parameter anything. T happens to be a fairly common convention for a type variable, similar to how i is a convention for index variables in loops.
+
+This is just as valid:
+
+func splitAnySlice[MyAnyType any](s []MyAnyType) ([]MyAnyType, []MyAnyType) {
+    mid := len(s)/2
+    return s[:mid], s[mid:]
+}
+
+
+
+
+

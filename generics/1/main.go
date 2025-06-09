@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from generics - Exercise 1")
+func getLast[T any](s []T) T {
+	// ?
 }

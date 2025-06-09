@@ -1,7 +1,13 @@
-# Exercise 4 - Pointers
+Pointers Quiz
+package main
 
-This is exercise 4 for the topic **Pointers**.
+func main() {
+	var x int = 50
+	var y *int = &x
+	*y = 100
+}
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+
+
+
+

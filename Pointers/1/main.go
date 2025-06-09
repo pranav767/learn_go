@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello from Pointers - Exercise 1")
+type Message struct {
+	Recipient string
+	Text      string
+}
+
+func getMessageText(m Message) string {
+	return fmt.Sprintf(`
+To: %v
+Message: %v
+`, &m.Recipient, &m.Text)
 }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from channels - Exercise 4")
+func addEmailsToQueue(emails []string) chan string {
+	// ?
 }

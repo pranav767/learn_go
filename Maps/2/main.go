@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+func deleteIfNecessary(users map[string]user, name string) (deleted bool, err error) {
+	// ?
+}
 
-func main() {
-    fmt.Println("Hello from Maps - Exercise 2")
+type user struct {
+	name                 string
+	number               int
+	scheduledForDeletion bool
 }
