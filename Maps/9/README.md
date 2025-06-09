@@ -1,0 +1,7 @@
+# Exercise 9 - Maps
+
+This is exercise 9 for the topic **Maps**.
+
+## Files
+- `main.go`: Main program
+- `main_test.go`: Test file
