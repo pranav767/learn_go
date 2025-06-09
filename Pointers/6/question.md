@@ -2,7 +2,7 @@ Which is more widely used in Go?
 
 
 
-Value receivers
+- [ ] Value receivers
 
 
-Pointer receivers
+- [ ] Pointer receivers
