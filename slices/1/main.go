@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from slices - Exercise 1")
+func getMessageWithRetries(primary, secondary, tertiary string) ([3]string, [3]int) {
+	// ?
 }

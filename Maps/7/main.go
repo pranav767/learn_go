@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from Maps - Exercise 7")
+func countDistinctWords(messages []string) int {
+	// ?
 }

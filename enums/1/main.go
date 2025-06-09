@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello from enums - Exercise 1")
+func (a *analytics) handleEmailBounce(em email) error {
+	em.recipient.updateStatus(em.status)
+	a.track(em.status)
+	return nil
 }

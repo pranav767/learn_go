@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+)
 
-func main() {
-    fmt.Println("Hello from slices - Exercise 2")
+const (
+	planFree = "free"
+	planPro  = "pro"
+)
+
+func getMessageWithRetriesForPlan(plan string, messages [3]string) ([]string, error) {
+	// ?
 }

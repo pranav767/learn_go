@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+type sms struct {
+	id      string
+	content string
+	tags    []string
+}
 
-func main() {
-    fmt.Println("Hello from slices - Exercise 13")
+func tagMessages(messages []sms, tagger func(sms) []string) []sms {
+	// ?
+}
+
+func tagger(msg sms) []string {
+	tags := []string{}
+	// ?
 }

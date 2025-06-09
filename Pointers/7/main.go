@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+func (e email) setMessage(newMessage string) {
+	e.message = newMessage
+}
 
-func main() {
-    fmt.Println("Hello from Pointers - Exercise 7")
+// don't edit below this line
+
+type email struct {
+	message     string
+	fromAddress string
+	toAddress   string
 }

@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import "errors"
 
-func main() {
-    fmt.Println("Hello from Maps - Exercise 1")
+func getUserMap(names []string, phoneNumbers []int) (map[string]user, error) {
+	// ?
+}
+
+type user struct {
+	name        string
+	phoneNumber int
 }

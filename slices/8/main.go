@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from slices - Exercise 8")
+func indexOfFirstBadWord(msg []string, badWords []string) int {
+	// ?
+	return 0
 }

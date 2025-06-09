@@ -1,7 +1,11 @@
-# Exercise 9 - Pointers
+Update Balance
+Textio needs a new way to update users account balance.
 
-This is exercise 9 for the topic **Pointers**.
+Assignment
+Implement the updateBalance function. It should take a customer pointer and a transaction, and return an error. Depending on the transactionType, it should either add or subtract the amount from the customers balance. If the customer does not have enough money, it should return the error insufficient funds. If the transactionType isn't a withdrawal or deposit, it should return the error unknown transaction type. Otherwise, it should process the transaction and return nil.
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+alice := customer{id: 1, balance: 100.0}
+deposit := transaction{customerID: 1, amount: 50, transactionType: transactionDeposit}
+
+updateBalance(&alice, deposit)
+// id: 1 balance: 150

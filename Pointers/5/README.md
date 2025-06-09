@@ -1,7 +1,9 @@
-# Exercise 5 - Pointers
+Nil Pointers
+Pointers can be very dangerous.
 
-This is exercise 5 for the topic **Pointers**.
+If a pointer points to nothing (the zero value of the pointer type) then dereferencing it will cause a runtime error (a panic) that crashes the program. Generally speaking, whenever you're dealing with pointers you should check if it's nil before trying to dereference it.
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+Assignment
+Let's make our profanity checker safe. Update the removeProfanity function. If message is nil, return early to avoid a panic. After all, there are no bad words to remove.
+
+

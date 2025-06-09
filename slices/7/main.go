@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+type cost struct {
+	day   int
+	value float64
+}
 
-func main() {
-    fmt.Println("Hello from slices - Exercise 7")
+func getDayCosts(costs []cost, day int) []float64 {
+	// ?
 }

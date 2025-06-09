@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from slices - Exercise 4")
+func getMessageCosts(messages []string) []float64 {
+	// ?
 }

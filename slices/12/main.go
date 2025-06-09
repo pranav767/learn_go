@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from slices - Exercise 12")
+func isValidPassword(password string) bool {
+	// ?
 }

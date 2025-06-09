@@ -1,7 +1,14 @@
-package main
+package mailio
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func test(text string) {
+	fmt.Println(text)
+}
 
 func main() {
-    fmt.Println("Hello from Packages and modules - Exercise 1")
+	test("starting Mailio server")
+	test("stopping Mailio server")
 }

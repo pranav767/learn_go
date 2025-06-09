@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello from slices - Exercise 9")
+func createMatrix(rows, cols int) [][]int {
+	// ?
 }

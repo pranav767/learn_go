@@ -1,7 +1,18 @@
-# Exercise 2 - Packages and modules
+Package Naming
+By convention, a package's name is the same as the last element of its import path. For instance, the math/rand package comprises files that begin with:
 
-This is exercise 2 for the topic **Packages and modules**.
+package rand
 
-## Files
-- `main.go`: Main program
-- `main_test.go`: Test file
+That said, package names aren't required to match their import path. For example, I could write a new package with the path github.com/mailio/rand and name the package random:
+
+package random
+
+While the above is possible, it is discouraged for the sake of consistency.
+
+One Package / Directory
+A directory of Go code can have at most one package. All .go files in a single directory must all belong to the same package. If they don't, an error will be thrown by the compiler. This is true for main and library packages alike.
+
+
+
+
+
